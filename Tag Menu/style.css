@@ -1,0 +1,31 @@
+body {
+    background-color: #2d3f50;
+}
+
+.container {
+    margin-top: 100px;
+    margin-left: 200px;
+    position: relative;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+    background-color: #da4353;
+    padding: 10px 20px;
+    user-select: none;
+    transition: all .4s ease-in-out;
+}
+
+.slider {
+    height: 5px;
+    background-color: #46cfb0;
+    transition: all .4s ease-in-out;
+}
